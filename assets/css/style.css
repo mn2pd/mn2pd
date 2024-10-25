@@ -23,7 +23,7 @@ body {
   position: relative;
   z-index: 1;
   overflow-x: hidden;
-  background-color: white;
+  background-color: black;
   display: flex;
   transition: 0.3s;
   flex-direction: column;
