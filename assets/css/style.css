@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body {
-  color: #2b2c48;
+  color: black;
   font-family: "Jost", sans-serif;
   background-image: url('../img/background.jpg');
   background-repeat: no-repeat;
@@ -14,10 +14,6 @@ body {
   display: flex;
   flex-wrap: wrap;
   padding: 20px;
-}
-body {
-    color: black; /* رنگ متن به مشکی تغییر می‌کند */
-}
 .card {
   max-width: 340px;
   width: 500px;
