@@ -516,7 +516,7 @@ button span {
   z-index: 1;
   width: 100%;
   height: 100%;
-  background: #a5aa0f;
+  background: #323232;
   transform: rotate(-90deg);
   transform-origin: left top;
   transition: transform cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s;
