@@ -619,3 +619,6 @@ html, body {
 body {
     user-select: none; /* جلوگیری از انتخاب متن */
 }
+.no-drag {
+    pointer-events: none; /* جلوگیری از کلیک بر روی تصویر */
+}
