@@ -455,12 +455,12 @@ button span {
 }
 .btn-shock::before {
   z-index: -1;
-  border-color: #959934;
+  border-color: #323232;
 }
 .btn-shock::after {
   z-index: -2;
-  background: #959934;
-  border-color: #959934;
+  background: #323232;
+  border-color: #323232;
   transform: scale(0.5);
 }
 .btn-shock:hover {
