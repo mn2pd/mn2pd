@@ -612,6 +612,13 @@ button span {
     transform: translateY(0);
   }
 }
-body {
+html, body {
+    height: 100%;
     overflow: hidden; /* جلوگیری از اسکرول */
+}
+
+.wrapper {
+    overflow-y: scroll; /* اسکرول تنها در این بخش */
+    height: 100%; /* ارتفاع کل صفحه */
+    position: relative; /* برای موقعیت دهی بهتر */
 }
