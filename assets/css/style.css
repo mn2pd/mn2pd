@@ -620,5 +620,7 @@ body {
     user-select: none; /* جلوگیری از انتخاب متن */
 }
 .no-drag {
+    user-drag: none; /* جلوگیری از کشیدن تصویر */
+    -webkit-user-drag: none; /* برای مرورگرهای وب‌کیت */
     pointer-events: none; /* جلوگیری از کلیک بر روی تصویر */
 }
