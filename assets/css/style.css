@@ -429,7 +429,7 @@ button span {
   transition: 0.3s;
 }
 .btn:hover {
-  background: #e8ec60;
+  background: #323232;
 }
 .btn-sd {
   --hue: 141;
