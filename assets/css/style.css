@@ -613,6 +613,6 @@ button span {
   }
 }
 html, body {
-    overflow: hidden;
+    overflow: visible;
     touch-action: pan-y;
 }
