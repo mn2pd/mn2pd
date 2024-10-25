@@ -274,7 +274,7 @@ body {
   width: 8px;
   height: 8px;
   line-height: 0.6;
-  border: 2px solid #fff;
+  border: 2px solid #4b4b4b;
   font-size: 11px;
   text-indent: -35px;
   border-radius: 50%;
@@ -321,7 +321,7 @@ body {
   outline: none;
   background: linear-gradient(to right, rgba(83, 200, 239, 0.8) 0%, rgba(81, 106, 204, 0.8) 96%);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
-  color: #fff;
+  color: #4b4b4b;
   padding: 12px 16px;
   width: 100%;
   border-radius: 5px;
@@ -413,7 +413,7 @@ button span {
   position: relative;
   padding: 8px 24px;
   font-size: 100%;
-  color: white;
+  color: #7f8c8d;
   text-decoration: none;
   background-color: hsl(var(--hue), 100%, 41%);
   border: 1px solid hsl(var(--hue), 100%, 41%);
@@ -464,7 +464,7 @@ button span {
   transform: scale(0.5);
 }
 .btn-shock:hover {
-  color: white;
+  color: #7f8c8d;
 }
 .btn-shock:hover::before {
   opacity: 0;
@@ -478,7 +478,7 @@ button span {
   display: flex;
   flex-direction: column;
   font-family: "Jost", sans-serif;
-  background: white;
+  background: #7f8c8d;
   border-radius: 0 0 10px 10px;
   box-shadow: 0 0px 0.6px rgba(0, 0, 0, 0.028), 0 0px 1.3px rgba(0, 0, 0, 0.04), 0 0px 2.5px rgba(0, 0, 0, 0.05), 0 0px 4.5px rgba(0, 0, 0, 0.06), 0 0px 8.4px rgba(0, 0, 0, 0.072), 0 0px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -525,13 +525,13 @@ button span {
   transition-delay: 0.1s;
 }
 .cardMessage.sent .hint h2 {
-  color: white;
+  color: #7f8c8d;
 }
 .cardMessage.sent .hint::before, .cardMessage.sent .hint::after {
   transform: rotate(0);
 }
 .cardMessage.sent .hint::before {
-  background: white;
+  background: #7f8c8d;
 }
 .cardMessage.sent .hint::after {
   --hue: 141;
