@@ -619,6 +619,3 @@ body {
     width: 100%;
     height: 100%;
     overflow: hidden; /* این باعث می‌شود که محتوا نتواند اسکرول شود */
-    background: url('path/to/your/background.jpg') no-repeat center center fixed;
-    background-size: cover; /* برای پوشش کامل */
-}
