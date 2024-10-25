@@ -119,14 +119,9 @@
 <!-- partial -->
   <script  src="assets/js/script.js?qvr"></script>
 </body>
-<!-- Loading by www.1abzar.com --->
-<script>
-<body>
-<!-- No right Click by www.1abzar.com --->
-<script type="text/javascript" src="http://1abzaar.ir/abzar/tools/no-rightclick.js"></script><div style="display:none"><h3><a href="http://www.1abzar.com">&#1575;&#1576;&#1586;&#1575;&#1585; &#1608;&#1576;&#1605;&#1587;&#1578;&#1585;</a></h3></div>
-<!-- No right Click by www.1abzar.com --->
-
-<!-- No selection by www.1abzar.com --->
-<script type="text/javascript" src="http://1abzaar.ir/abzar/tools/no-selects.js"></script><div style="display:none"><h2><a href="http://www.1abzar.com">&#1575;&#1576;&#1586;&#1575;&#1585; &#1608;&#1576;&#1605;&#1587;&#1578;&#1585;</a></h2></div>
-<!-- No selection by www.1abzar.com --->
+document.querySelectorAll('.no-drag').forEach(img => {
+    img.addEventListener('contextmenu', function(e) {
+        e.preventDefault(); // جلوگیری از منوی راست کلیک
+    });
+});
 </html>
