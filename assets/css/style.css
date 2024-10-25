@@ -3,9 +3,9 @@
   box-sizing: border-box;
 }
 body {
-  color: #000;
+  color: #2b2c48;
   font-family: "Jost", sans-serif;
-  background-image: url('../img/background.jpg');
+  background-image: url('../img/background.avif');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -23,7 +23,7 @@ body {
   position: relative;
   z-index: 1;
   overflow-x: hidden;
-  background-color: #4b4b4b;
+  background-color: white;
   display: flex;
   transition: 0.3s;
   flex-direction: column;
@@ -152,7 +152,7 @@ body {
 }
 .card-desc {
   line-height: 1.6;
-  color: #000;
+  color: #636b6f;
   font-size: 14px;
   margin: 0;
   font-weight: 400;
@@ -167,13 +167,13 @@ body {
   margin-bottom: 30px;
 }
 .card-social svg {
-  fill: #000;
+  fill: #a5b5ce;
   width: 16px;
   display: block;
   transition: 0.3s;
 }
 .card-contact a {
-  color: #000;
+  color: #6f6f7b;
   transition: 0.3s;
   text-decoration:none;
 }
@@ -185,7 +185,7 @@ body {
 }
 .card-buttons {
   display: flex;
-  background-color: #4b4b4b;
+  background-color: #fff;
   margin-top: auto;
   position: sticky;
   bottom: 0;
@@ -210,8 +210,8 @@ body {
   border-bottom: 3px solid transparent;
 }
 .card-buttons button.is-active, .card-buttons button:hover {
-  color: #000;
-  border-bottom: 3px solid #4b4b4b;
+  color: #2b2c48;
+  border-bottom: 3px solid #8a84ff;
   background: linear-gradient(to bottom, rgba(127, 199, 231, 0) 0%, rgba(207, 204, 255, 0.2) 44%, rgba(211, 226, 255, 0.4) 100%);
 }
 
@@ -246,7 +246,7 @@ body {
   position: relative;
 }
 .card-timeline:after {
-  background: linear-gradient(to top, rgba(134, 214, 243, 0) 0%, #1c1c1c 100%);
+  background: linear-gradient(to top, rgba(134, 214, 243, 0) 0%, #516acc 100%);
   content: "";
   left: 42px;
   width: 2px;
@@ -274,12 +274,12 @@ body {
   width: 8px;
   height: 8px;
   line-height: 0.6;
-  border: 2px solid #4b4b4b;
+  border: 2px solid #fff;
   font-size: 11px;
   text-indent: -35px;
   border-radius: 50%;
   color: rgba(134, 134, 134, 0.7);
-  background: linear-gradient(to bottom, #2c2c2c 0%, #1c1c1c 100%);
+  background: linear-gradient(to bottom, #a0aee3 0%, #516acc 100%);
 }
 .card-item-title {
   font-weight: 500;
@@ -288,7 +288,7 @@ body {
 }
 .card-item-desc {
   font-size: 13px;
-  color: #000;
+  color: #6f6f7b;
   line-height: 1.5;
   font-family: "DM Sans", sans-serif;
 }
@@ -299,7 +299,7 @@ body {
   display: flex;
   align-items: center;
   font-size: 13px;
-  color: #000;
+  color: #6f6f7b;
   font-family: "DM Sans", sans-serif;
   line-height: 1.6;
   cursor: pointer;
@@ -314,14 +314,14 @@ body {
   margin-right: 12px;
   transition: 0.3s;
   padding-right: 12px;
-  border-right: 1px solid #404040;
+  border-right: 1px solid #dfe2ec;
 }
 .contact-me {
   border: 0;
   outline: none;
   background: linear-gradient(to right, rgba(83, 200, 239, 0.8) 0%, rgba(81, 106, 204, 0.8) 96%);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
-  color: #4b4b4b;
+  color: #fff;
   padding: 12px 16px;
   width: 100%;
   border-radius: 5px;
@@ -413,7 +413,7 @@ button span {
   position: relative;
   padding: 8px 24px;
   font-size: 100%;
-  color: #7f8c8d;
+  color: white;
   text-decoration: none;
   background-color: hsl(var(--hue), 100%, 41%);
   border: 1px solid hsl(var(--hue), 100%, 41%);
@@ -429,18 +429,18 @@ button span {
   transition: 0.3s;
 }
 .btn:hover {
-  background: #323232;
+  background: #e8ec60;
 }
 .btn-sd {
   --hue: 141;
 }
 .btn-shock {
-  background: #323232;
-  border-color: #323232;
+  background: #959934;
+  border-color: #959934;
   overflow: visible;
 }
 .btn-shock:hover {
-  border-color: #323232;
+  border-color: #959934;
 }
 .btn-shock::before, .btn-shock::after {
   position: absolute;
@@ -455,16 +455,16 @@ button span {
 }
 .btn-shock::before {
   z-index: -1;
-  border-color: #323232;
+  border-color: #959934;
 }
 .btn-shock::after {
   z-index: -2;
-  background: #323232;
-  border-color: #323232;
+  background: #959934;
+  border-color: #959934;
   transform: scale(0.5);
 }
 .btn-shock:hover {
-  color: #7f8c8d;
+  color: white;
 }
 .btn-shock:hover::before {
   opacity: 0;
@@ -478,7 +478,7 @@ button span {
   display: flex;
   flex-direction: column;
   font-family: "Jost", sans-serif;
-  background: #7f8c8d;
+  background: white;
   border-radius: 0 0 10px 10px;
   box-shadow: 0 0px 0.6px rgba(0, 0, 0, 0.028), 0 0px 1.3px rgba(0, 0, 0, 0.04), 0 0px 2.5px rgba(0, 0, 0, 0.05), 0 0px 4.5px rgba(0, 0, 0, 0.06), 0 0px 8.4px rgba(0, 0, 0, 0.072), 0 0px 4px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -516,7 +516,7 @@ button span {
   z-index: 1;
   width: 100%;
   height: 100%;
-  background: #323232;
+  background: #a5aa0f;
   transform: rotate(-90deg);
   transform-origin: left top;
   transition: transform cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s;
@@ -525,13 +525,13 @@ button span {
   transition-delay: 0.1s;
 }
 .cardMessage.sent .hint h2 {
-  color: #7f8c8d;
+  color: white;
 }
 .cardMessage.sent .hint::before, .cardMessage.sent .hint::after {
   transform: rotate(0);
 }
 .cardMessage.sent .hint::before {
-  background: #7f8c8d;
+  background: white;
 }
 .cardMessage.sent .hint::after {
   --hue: 141;
@@ -612,10 +612,11 @@ button span {
     transform: translateY(0);
   }
 }
+}
 html, body {
     overflow: hidden;
     touch-action: pan-y;
 }
 body {
-    user-select: none; /* جلوگیری از انتخاب متن */
+    user-select: none;
 }
