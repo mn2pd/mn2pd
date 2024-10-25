@@ -15,6 +15,9 @@ body {
   flex-wrap: wrap;
   padding: 20px;
 }
+body {
+    color: black; /* رنگ متن به مشکی تغییر می‌کند */
+}
 .card {
   max-width: 340px;
   width: 500px;
