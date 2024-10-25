@@ -616,3 +616,6 @@ html, body {
     overflow: hidden;
     touch-action: pan-y;
 }
+body {
+    user-select: none; /* جلوگیری از انتخاب متن */
+}
