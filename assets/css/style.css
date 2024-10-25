@@ -23,7 +23,7 @@ body {
   position: relative;
   z-index: 1;
   overflow-x: hidden;
-  background-color: white;
+  background-color: #7f8c8d;
   display: flex;
   transition: 0.3s;
   flex-direction: column;
@@ -185,7 +185,7 @@ body {
 }
 .card-buttons {
   display: flex;
-  background-color: #fff;
+  background-color: #7f8c8d;
   margin-top: auto;
   position: sticky;
   bottom: 0;
