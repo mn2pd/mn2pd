@@ -167,7 +167,7 @@ body {
   margin-bottom: 30px;
 }
 .card-social svg {
-  fill: #a5b5ce;
+  fill: #000;
   width: 16px;
   display: block;
   transition: 0.3s;
