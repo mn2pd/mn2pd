@@ -2,6 +2,10 @@
 * {
   box-sizing: border-box;
 }
+.btn {
+    background-color: black; /* رنگ پس‌زمینه دکمه‌ها به سیاه تغییر می‌کند */
+    color: white; /* رنگ متن دکمه‌ها به سفید تغییر می‌کند */
+}
 body {
   color: black;
   font-family: "Jost", sans-serif;
