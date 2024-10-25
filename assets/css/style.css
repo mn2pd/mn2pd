@@ -622,31 +622,3 @@ html, body {
     height: 100%; /* ارتفاع کل صفحه */
     position: relative; /* برای موقعیت دهی بهتر */
 }
-body, html {
-    height: 100%;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black; /* پس‌زمینه سیاه */
-}
-
-.loading-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.loader {
-    border: 8px solid rgba(255, 255, 255, 0.1); /* لبه‌ها خاکستری متمایل به سیاه */
-    border-top: 8px solid gray; /* رنگ بالایی لودر */
-    border-radius: 50%;
-    width: 50px; /* اندازه لودر */
-    height: 50px; /* اندازه لودر */
-    animation: spin 1s linear infinite; /* چرخش لودر */
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
