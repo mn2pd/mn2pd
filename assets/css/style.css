@@ -612,11 +612,10 @@ button span {
     transform: translateY(0);
   }
 }
-}
 html, body {
     overflow: hidden;
     touch-action: pan-y;
 }
 body {
-    user-select: none;
+    user-select: none; /* جلوگیری از انتخاب متن */
 }
