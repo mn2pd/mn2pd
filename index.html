@@ -13,7 +13,7 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<div class="card" data-state="#about">
+<div class="card is-active" data-state="#contact">
   <div class="card-header">
     <div class="card-cover" style="background-image: url('assets/img/user.jpg')"></div>
     <img class="card-avatar" src="assets/img/user.jpg" alt="avatar">
@@ -21,7 +21,7 @@
     <h2 class="card-jobtitle">gamer | Developer</h2>
   </div>
   <div class="card-main">
-    <div class="card-section is-active" id="about">
+    <div class="card-section" id="about">
       <div class="card-content">
         <div class="card-subtitle">ABOUT</div>
         <p class="card-desc">I was born in Tehran but I live in Gilan and I am 17 years old.<br>I am a student and a programmer.<br>I am a professional technical student and the owner of the Shadow Coders programming team.
@@ -47,7 +47,7 @@
         </div>
       </div>
     </div>
-    <div class="card-section" id="contact">
+    <div class="card-section is-active" id="contact">
       <div class="card-content">
         <div class="card-subtitle">CONTACT</div>
         <div class="card-contact-wrapper">       
@@ -66,15 +66,7 @@
             </svg>
             <a href="https://instagram.com/mn2pd">@mn2pd</a>
           </div>
-          <form class="cardMessage" action="javascript:void(0);">
-            <div class="hint">
-              <h2>Thank you for your message!</h2>
-            </div>
-            <textarea class="textarea" placeholder="What do you want to tell me?" required=""></textarea>
-            <div class="multi-button">
-              <button class="btn btn-sd btn-shock" type="submit" id="send">Send</button>
-            </div>
-          </form>        
+                  
         </div>
       </div>
     </div>
@@ -84,8 +76,6 @@
         
         <div class="container">
           <div class="slider">
-            <img class="imgs active" src="assets/img/1.jpg">
-            <img class="imgs" src="assets/img/2.jpg">
           </div>
           <nav class="slider-nav">
             <ul>
@@ -109,14 +99,15 @@
       </div>
     </div>
     <div class="card-buttons">
-      <button data-section="#about" class="is-active">About</button>
+      <button data-section="#about" class="">About</button>
       
       <button data-section="#experience" class="">Experience</button>
-      <button data-section="#contact" class="">Contact</button>
+      <button data-section="#contact" class="is-active">Contact</button>
     </div>
   </div>
 </div>
 <!-- partial -->
   <script src="assets/js/script.js?qvr"></script>
+
 
 </body></html>
