@@ -68,6 +68,7 @@ document.addEventListener('keydown', keyPress);
 const cardMessage = document.querySelector(".cardMessage");
 let textarea = document.querySelector(".cardMessage .textarea");
 let sendButton = document.querySelector("#send");
+sendButton.addEventListener("click", () => {
     if (textarea.checkValidity()) {
       cardMessage.classList.add("sent");
       fetch("/proccess.php", {
@@ -104,4 +105,4 @@ function checkHashOnLoad() {
     }
   }
 }
-checkHashOnLoad();
+checkHashOnLoad()
