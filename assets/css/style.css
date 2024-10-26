@@ -612,20 +612,3 @@ button span {
     transform: translateY(0);
   }
 }
-html, body {
-    overflow: hidden;
-    touch-action: pan-y;
-}
-body {
-    user-select: none; /* جلوگیری از انتخاب متن */
-}
-/* حذف دکمه‌های بالا و پایین از input نوع number */
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-input[type="number"] {
-    -moz-appearance: textfield; /* برای فایرفاکس */
-}
